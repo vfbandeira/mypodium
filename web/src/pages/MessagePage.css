@@ -1,0 +1,14 @@
+.message-page-container {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #383f48;
+    font-weight: bold;
+    line-height: 1;
+    display: flex;
+}
+
+
+.message-page-container > div{
+    margin: auto;
+}

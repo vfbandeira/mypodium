@@ -1,0 +1,127 @@
+.user-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.user-page-container-messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.user-page-user-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.user-page-user-img {
+    border: solid 2px black;
+    border-radius: 50%;
+    color: black;
+    padding: 2px;
+    font-size: 85px;
+    height: 85px;
+}
+
+.user-page-user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-page-user-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    color: #383f48;
+    text-overflow: ellipsis;    
+    overflow: hidden;
+    margin: 10px 0px 7px 0px;
+}
+
+.user-page-user-username {
+    font-style: italic;
+    font-size: 14px;
+    color: #666666;
+    text-overflow: ellipsis;    
+    overflow: hidden;
+    line-height: 1;
+}
+
+.user-page-right-container {
+    width: 100%;
+    max-width: 710px;
+}
+
+.user-page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    border-bottom: 2px solid #383f48;
+}
+
+.user-page-nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 25%;
+    color: #bfbfbf;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+
+.user-page-nav-item:hover {
+    border-bottom: 4px solid #383f48;
+    padding-bottom: 0px;
+}
+
+.user-page-nav-active {
+    border-bottom: 4px solid #383f48;
+    padding-bottom: 0px;
+}
+
+.user-page-nav-item a {
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    margin-bottom: 3px;
+}
+
+.user-page-nav-item a:hover {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.user-page-nav-item img {
+    height: 30px;
+}
+
+.user-page-nav-link-active {
+    color: #383f48 !important;
+    font-weight: bold;
+}
+
+.user-page-text-center {
+    margin: 40px auto;
+    color: #383f48;
+    text-align: center;
+}

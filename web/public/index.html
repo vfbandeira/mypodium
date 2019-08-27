@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Added this line below since it was in todo list (browswer compat?)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#71e29e">
+
+    <meta name="description" content="Share your voice and be prepared to get booed or cheered">
+    <meta name="image" content="https://mypodium.net/icon-192x192.png">
+    <meta name="author" content="MyPodium.net">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="MyPodium - An audio only social network">
+    <meta itemprop="description" content="Share your voice and be prepared to get booed or cheered">
+    <meta itemprop="image" content="https://mypodium.net/icon-192x192.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MyPodium - An audio only social network">
+    <meta name="twitter:description" content="Share your voice and be prepared to get booed or cheered">
+    <meta name="twitter:site" content="@My_Podium">
+    <meta name="twitter:image:src" content="https://mypodium.net/icon-192x192.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="MyPodium - An audio only social network">
+    <meta name="og:description" content="Share your voice and be prepared to get booed or cheered">
+    <meta name="og:image" content="https://mypodium.net/icon-192x192.png">
+    <meta name="og:url" content="https://mypodium.net">
+    <meta name="og:site_name" content="MyPodium - An audio only social network">
+    <meta name="og:type" content="website">
+
+    <title>MyPodium - An audio only social network</title>
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/bootstrap.css" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this Blockstack app.
+    </noscript>
+    <div id="root"></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="application/javascript" src="%PUBLIC_URL%/userData.js"></script>
+    <script src="%PUBLIC_URL%/WebAudioRecorder.min.js"></script>
+    <script src="%PUBLIC_URL%/jungle.js"></script>
+    <script src="%PUBLIC_URL%/doWorkerTask.js"></script>
+  </body>
+</html>

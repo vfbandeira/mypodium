@@ -1,0 +1,16 @@
+{
+  "short_name": "MyPodium",
+  "name": "MyPodium",
+  "description": "Live streaming platform with Bitcoin Tips",
+  "icons": [
+    {
+      "src": "https://mypodium.net/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://mypodium.net/manifest.json",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#383f48"
+}
